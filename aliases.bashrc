@@ -19,15 +19,18 @@ alias t='touch'
 # Atalhos de git
 alias ga='git add'
 alias gc='git commit'
+alias gca='git commit -m a'
 alias gp='git push'
+alias gf='git fetch'
+alias gpull='git pull'
 alias gb='git branch'
 alias gs='git switch'
-alias gc='git checkout'
+alias gch='git checkout'
 alias gclone='git clone'
+alias gcnf='git config'
 
 # Atalhos Makefile
 alias m='make'
-
 
 # Usar Oh my posh no terminal
     # Temas
