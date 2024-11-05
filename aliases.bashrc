@@ -3,6 +3,7 @@ alias b='code ~/.bashrc.d/aliases.bashrc' # Editar o bash
 alias bu='source ~/.bashrc.d/aliases.bashrc' # Atualizar
 alias cdb='cd ~/.bashrc.d' # Ir para o diretório desse arquivo
 alias gbash='cd ~/.bashrc.d/ && git add . && git commit -m a && git push && cd -' # Atualizar Github com a atualização rapidamente
+alias gbashupdate='cd ~/.bashrc.d/ && git fetch && git pull && cd -' # Dar git pull nas atualizações do repositório
 alias u='sudo dnf update -y'
 alias s='shutdown now'
 alias r='reboot'
