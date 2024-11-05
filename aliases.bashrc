@@ -16,7 +16,7 @@ alias sd='sudo dnf'
 alias sdi='sudo dnf install'
 alias t='touch'
 
-# Atalhos de git
+# Atalhos de Git
 alias ga='git add'
 alias gc='git commit'
 alias gca='git commit -m a'
