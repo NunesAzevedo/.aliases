@@ -1,7 +1,7 @@
 # Atalhos do terminal
 alias b='code ~/.bashrc.d/aliases.bashrc' # Editar o bash
 alias bu='source ~/.bashrc.d/aliases.bashrc' # Atualizar
-alias cdb='cd ~/.bashrc.d/' # Ir para o diretório onde está esse arquivo
+alias gbash='cd ~/.bashrc.d/ && git add . && git commit -m a && git push' # Atualizar Github com a atualização rapidamente
 alias u='sudo dnf update -y'
 alias s='shutdown now'
 alias r='reboot'
