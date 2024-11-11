@@ -20,6 +20,7 @@ alias sd='sudo dnf'
 alias sdi='sudo dnf install'
 alias t='touch'
 alias co='code . && clear'
+alias cat='bat'
 
 # Atalhos de Git
 alias ga='git add'
