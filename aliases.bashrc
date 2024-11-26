@@ -1,11 +1,7 @@
 # Atalhos do terminal
-alias b='code ~/.bashrc.d/aliases.bashrc' # Editar o bash
-alias bu='source ~/.bashrc.d/aliases.bashrc' # Atualizar
-alias cdb='cd ~/.bashrc.d' # Ir para o diretório desse arquivo
-alias gbash='cd ~/.bashrc.d/ && git add . && git commit -m a && git push && cd -' # Atualizar Github com a atualização rapidamente
-alias gbashupdate='cd ~/.bashrc.d/ && git fetch && git pull && cd -' # Dar git pull nas atualizações do repositório
 alias u='sudo dnf update -y'
-alias s='shutdown now'
+alias s='sudo'
+alias shhhh='shutdown now'
 alias r='reboot'
 alias c='clear'
 alias ls='lsd'
@@ -21,6 +17,16 @@ alias sdi='sudo dnf install'
 alias t='touch'
 alias co='code . && clear'
 alias cat='bat'
+
+# ---------------------------------------
+# Atalhos de personalização do computador
+# ---------------------------------------
+# Atalhos Bash
+alias b='code ~/.bashrc.d/aliases.bashrc' # Editar o bash
+alias bu='source ~/.bashrc.d/aliases.bashrc' # Atualizar
+alias cdb='cd ~/.bashrc.d' # Ir para o diretório desse arquivo
+alias gbash='cd ~/.bashrc.d/ && git add . && git commit -m a && git push && cd -' # Atualizar Github com a atualização rapidamente
+alias gbashupdate='cd ~/.bashrc.d/ && git fetch && git pull && cd -' # Dar git pull nas atualizações do repositório 
 
 # Atalhos de Git
 alias ga='git add'
@@ -41,9 +47,14 @@ alias gcnfig='git config'
 # Atalhos Makefile
 alias m='make'
 
+# ------------------
+# Atalhos Oh my posh
+# ------------------
+alias gposh='cd ~/oh_my_posh_themes && git add . && git commit -m a && git push'
+
 # Usar Oh my posh no terminal
     # Temas
-    craver='~/oh-my-posh_themes/craver.omp.json'
+    craver='~/oh_my_posh_themes/craver.omp.json'
 
 # Inicia o Oh my posh
 eval "$(oh-my-posh init bash --config $craver)"
