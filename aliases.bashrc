@@ -1,3 +1,7 @@
+# Escolha do editor padrão do computador
+export EDITOR=nvim
+export VISUAL=nvim
+
 # Atalhos do terminal
 alias u='sudo dnf update -y'
 alias s='sudo'
