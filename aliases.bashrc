@@ -46,6 +46,9 @@ alias gcnfig='git config'
 
 # Atalhos Makefile
 alias m='make'
+alias mr='make run'
+alias mc='make clean'
+alias mz='make zip'
 
 # ------------------
 # Atalhos Oh my posh
