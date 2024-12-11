@@ -56,6 +56,7 @@ alias mz='make zip'
 
 # Atalhos de desenvolvimento de código no geral
 alias a='./a.out'
+alias gfw='g++ -Wall'
 
 # ------------------
 # Atalhos Oh my posh
