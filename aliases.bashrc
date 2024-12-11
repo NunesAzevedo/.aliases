@@ -54,6 +54,9 @@ alias mr='make run'
 alias mc='make clean'
 alias mz='make zip'
 
+# Atalhos de desenvolvimento de código no geral
+alias a='./a.out'
+
 # ------------------
 # Atalhos Oh my posh
 # ------------------
