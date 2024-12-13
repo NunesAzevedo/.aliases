@@ -47,7 +47,7 @@ alias gsw='git switch'
 alias gch='git checkout'
 alias gclone='git clone'
 alias gcnfig='git config'
-alias gClonaTodosOsRepositoriosRemotos='for branch in $(git branch -r | grep -v '\->'); do git branch --track "${branch#origin "$branch"; done'
+alias gClonaTodosOsRepositoriosRemotos='sh ~/.scripts/clonaTodosOsRepositorios.sh'
 
 # Atalhos Makefile
 alias m='make'
