@@ -51,6 +51,7 @@ alias gClonaTodosOsRepositoriosRemotos='sh ~/.scripts/clonaTodosOsRepositorios.s
 
 # Atalhos Makefile
 alias m='make'
+alias ma='make all'
 alias mr='make run'
 alias mc='make clean'
 alias mz='make zip'
