@@ -23,7 +23,7 @@ alias co='code . && clear'
 alias cat='bat'
 
 # Atalhos para abrir aplicativos (gambiarra temorária)
-alias clion='sh /home/manteiguinha/apps/clion/clion-2024.3.1/bin/clion.sh'
+alias clion='sh ~/apps/clion/clion-2024.3.1/bin/clion.sh'
 
 # ---------------------------------------
 # Atalhos de personalização do computador
