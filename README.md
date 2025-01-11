@@ -2,6 +2,8 @@
 
 1. Switch to the branch corresponding to the operating system you are using.
 
+For bash:
+
 2. In the file `~/.bashrc`, add the following lines at the end:
 
     ```bash
@@ -20,3 +22,13 @@
     ```
 
     Alternatively, open a new terminal session to apply the changes.
+
+For zsh:
+
+2. Initially, if you become for bash, add this line for the file `~/.zshrc`:
+
+    ```zsh
+    export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+    ```
+
+3. 
