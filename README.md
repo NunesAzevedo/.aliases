@@ -31,4 +31,11 @@ For zsh:
     export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
     ```
 
-3. 
+3. Add this code in `~/.zshrc`
+
+```zsh
+# Add personal aliases
+for config_file in ~/.aliases/aliases; do
+  source "$config_file"
+done
+```
