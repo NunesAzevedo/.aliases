@@ -29,8 +29,8 @@ alias clion='sh ~/apps/clion/clion-2024.3.1/bin/clion.sh'
 # Atalhos de personalização do computador
 # ---------------------------------------
 # Atalhos Bash
-alias b='code ~/.bashrc.d/aliases.bashrc' # Editar o bash
-alias bu='source ~/.bashrc.d/aliases.bashrc' # Atualizar
+alias b='code ~/.aliases/aliases' # Editar o bash
+alias bu='source ~/.bashrc' # Atualizar
 alias cdb='cd ~/.bashrc.d' # Ir para o diretório desse arquivo
 alias gbash='cd ~/.bashrc.d/ && git add . && git commit -m a && git push && cd -' # Atualizar Github com a atualização rapidamente
 alias gbashupdate='cd ~/.bashrc.d/ && git fetch && git pull && cd -' # Dar git pull nas atualizações do repositório 
