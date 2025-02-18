@@ -65,6 +65,7 @@ alias ma='make all'
 alias mr='make run'
 alias mc='make clean'
 alias mz='make zip'
+alias md='debug'
 
 
 # Atalhos typst
