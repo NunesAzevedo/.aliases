@@ -3,7 +3,7 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # Atalhos do terminal
-alias u='sudo dnf update -y'
+alias u='pkg update && pkg upgrade -y'
 alias s='sudo'
 alias shhhhutdown='shutdown now'
 alias r='reboot'
@@ -14,10 +14,8 @@ alias ..='cd -'
 alias mk='mkdir -pv'
 alias ff='fastfetch'
 alias n='nvim'
-alias d='dolphin . &'
-alias dodo='dolphin'
-alias sd='sudo dnf'
-alias sdi='sudo dnf install'
+alias p='pkg'
+alias pi='pkg install'
 alias t='touch'
 alias co='code . && clear'
 # alias cat='bat'
@@ -83,8 +81,8 @@ alias gposh='cd ~/oh_my_posh_themes && git add . && git commit -m a && git push'
 
 # Usar Oh my posh no terminal
     # Temas
-    craver='~/oh_my_posh_themes/craver.omp.json'
+    craver='~/.oh_my_posh_themes/craver.omp.json'
 
 # Inicia o Oh my posh
-# eval "$(oh-my-posh init bash --config $craver)" # For bash
-eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
+eval "$(oh-my-posh init bash --config $craver)" # For bash
+#eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
