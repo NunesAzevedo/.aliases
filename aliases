@@ -19,7 +19,7 @@ alias dodo='dolphin'
 alias sd='sudo dnf'
 alias sdi='sudo dnf install'
 alias t='touch'
-alias co='code . && clear'
+alias co='code . && exit'
 # alias cat='bat'
 alias environment_variables='code ~/.environment_variables'
 
