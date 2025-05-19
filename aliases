@@ -72,9 +72,12 @@ alias md='make debug'
 alias ty='typst compile'
 
 
-# Atalhos de desenvolvimento de código no geral
+# Atalhos para C (GCC)
 alias a='./a.out'
 alias gfw='g++ -Wall'
+
+# Atalhos para Python
+alias p='python3'
 
 # ------------------
 # Atalhos Oh my posh
