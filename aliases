@@ -1,10 +1,14 @@
+# Gerenciador de pacotes padrão do sistema
+PKGMANAGER="dnf" 
+
 # Escolha do editor padrão do computador
 export EDITOR=nvim
 export VISUAL=nvim
 
 # Atalhos do terminal
-alias u='sudo dnf update -y'
+alias u='sudo $PKGMANAGER update -y'
 alias s='sudo'
+alias e="exit"
 alias shhhhutdown='shutdown now'
 alias r='reboot'
 alias c='clear'
@@ -15,9 +19,8 @@ alias mk='mkdir -pv'
 alias ff='fastfetch'
 alias n='nvim'
 alias d='dolphin . &'
-alias dodo='dolphin'
-alias sd='sudo dnf'
-alias sdi='sudo dnf install'
+alias sd='sudo $PKGMANAGER'
+alias sdi='sudo $PKGMANAGER install'
 alias t='touch'
 alias co='code . && exit'
 # alias cat='bat'
@@ -71,8 +74,7 @@ alias md='make debug'
 # Atalhos typst
 alias ty='typst compile'
 
-
-# Atalhos para C (GCC)
+# Atalhos para C/C++ (GCC/G++)
 alias a='./a.out'
 alias gfw='g++ -Wall'
 
