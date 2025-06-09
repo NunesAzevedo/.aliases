@@ -73,6 +73,7 @@ alias md='make debug'
 
 # Atalhos typst
 alias ty='typst compile'
+alias tyTemplate='cp -r ~/src/estudos/languages/typst/tuturial_of_official_documentation/template/personal_template/ .'
 
 # Atalhos para C/C++ (GCC/G++)
 alias a='./a.out'
