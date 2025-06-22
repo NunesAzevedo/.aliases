@@ -7,6 +7,7 @@ export VISUAL=nvim
 
 # Atalhos do terminal
 alias u='sudo $PKGMANAGER update -y'
+alias ue='sudo $PKGMANAGER update -y && exit'
 alias s='sudo'
 alias e="exit"
 alias shhhhutdown='shutdown now'
