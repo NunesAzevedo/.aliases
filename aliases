@@ -83,6 +83,9 @@ alias gfw='g++ -Wall'
 # Atalhos para Python
 alias p='python3'
 
+# Warthog
+alias sslgameController='cd ~/Warthog/3rdparty/ssl-game-controller && make run'
+
 # ------------------
 # Atalhos Oh my posh
 # ------------------
@@ -93,6 +96,6 @@ alias gposh='cd ~/.oh_my_posh_themes && git add . && git commit -m a && git push
     craver='~/.oh_my_posh_themes/craver.omp.json'
 
 # Inicia o Oh my posh
-# eval "$(oh-my-posh init bash --config $craver)" # For bash
-eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
+eval "$(oh-my-posh init bash --config $craver)" # For bash
+# eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
 eval "afetch | cowsay -n -f small"
