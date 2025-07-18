@@ -1,13 +1,15 @@
-# Gerenciador de pacotes padrão do sistema
-PKGMANAGER="dnf" 
 
 # Escolha do editor padrão do computador
 export EDITOR=nvim
 export VISUAL=nvim
 
+# Editor padrão de código
+EDITOR="nvim"
+
+
 # Atalhos do terminal
-alias u='sudo $PKGMANAGER update -y'
-alias ue='sudo $PKGMANAGER update -y && exit'
+alias u='sudo pacman -Syu'
+alias ue='sudo pacman -Syu && exit'
 alias s='sudo'
 alias e="exit"
 alias shhhhutdown='shutdown now'
@@ -20,12 +22,11 @@ alias mk='mkdir -pv'
 alias ff='fastfetch'
 alias n='nvim'
 alias d='dolphin . &'
-alias sd='sudo $PKGMANAGER'
-alias sdi='sudo $PKGMANAGER install'
+alias sd='sudo pacman'
+alias sdi='sudo pacman -S'
 alias t='touch'
 alias co='code . && exit'
-# alias cat='bat'
-alias environment_variables='code ~/.environment_variables'
+alias environment_variables='$Editor ~/.environment_variables'
 
 # Aliases relativos à USP
 alias vpn_usp='sh ~/src/scripts/vpn_usp.sh'
@@ -37,14 +38,14 @@ alias clion='sh ~/apps/clion/clion-2024.3.1/bin/clion.sh'
 # Atalhos de personalização do computador
 # ---------------------------------------
 # Atalhos aliases
-alias al='code ~/.aliases/aliases' # Editar o bash
+alias al='$EDITOR ~/.aliases/aliases' # Editar o bash
 alias alu='source ~/.bashrc && source ~/.zshrc' # Atualizar os terminais
 alias cdal='cd ~/.aliases' # Ir para o diretório desse arquivo
 alias gal='cd ~/.aliases/ && git add . && git commit -m a && git push && cd -' # Atualizar Github com a atualização rapidamente
 alias galupdate='cd ~/.aliases/ && git fetch && git pull && cd -' # Dar git pull nas atualizações do repositório 
 
-alias z='code ~/.zshrc'  # Editar o .zshrc
-alias b='code ~/.bashrc' # Editar o .bashrc
+alias z='$EDITOR ~/.zshrc'  # Editar o .zshrc
+alias b='$EDITOR ~/.bashrc' # Editar o .bashrc
 
 # Atalhos de Git
 alias ga='git add'
@@ -97,5 +98,5 @@ alias gposh='cd ~/.oh_my_posh_themes && git add . && git commit -m a && git push
 
 # Inicia o Oh my posh
 # eval "$(oh-my-posh init bash --config $craver)" # For bash
-eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
+# eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
 # eval "afetch | cowsay -n -f small"
