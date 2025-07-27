@@ -29,6 +29,7 @@ alias t='touch'
 alias co='code . && exit'
 alias environment_variables='$Editor ~/.environment_variables'
 alias k='(kitty . &) && disown'
+alias h='$EDITOR ~/.config/hypr/hyprland.conf'
 
 # Aliases relativos à USP
 alias vpn_usp='sh ~/src/scripts/vpn_usp.sh'
