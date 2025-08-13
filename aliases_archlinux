@@ -31,6 +31,9 @@ alias environment_variables='$Editor ~/.environment_variables'
 alias k='(kitty . &) && disown'
 alias h='$EDITOR ~/.config/hypr/hyprland.conf'
 
+# Aliases for studies
+alias xtemplate='cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp.xopp template.xopp && cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp.xopp rascunho.xopp'
+
 # Aliases relativos à USP
 alias vpn_usp='sh ~/src/scripts/vpn_usp.sh'
 
@@ -132,3 +135,6 @@ alias gposh='cd ~/.oh_my_posh_themes && git add . && git commit -m a && git push
 # eval "$(oh-my-posh init bash --config $craver)" # For bash
 # eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
 # eval "afetch | cowsay -n -f small"
+
+
+
