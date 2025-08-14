@@ -6,6 +6,8 @@ export VISUAL=nvim
 # Editor padrão de código
 EDITOR="nvim"
 
+# Número de threads disponíveis
+nthread = 12
 
 # Atalhos do terminal
 alias u='sudo pacman -Syu'
@@ -71,7 +73,7 @@ alias gcnfig='git config'
 alias gClonaTodosOsRepositoriosRemotos='sh ~/.scripts/clonaTodosOsRepositorios.sh'
 
 # Atalhos Makefile
-alias m='make'
+alias m='make -j$(($(nthread) - 2))'
 alias ma='make all'
 alias mr='make run'
 alias mc='make clean'
