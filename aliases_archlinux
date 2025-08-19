@@ -31,6 +31,7 @@ alias k='(kitty . &) && disown'
 alias h='$EDITOR ~/.config/hypr/hyprland.conf'
 
 # Aliases for studies
+alias x='xournalpp'
 alias xtemplate='cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp.xopp template.xopp && cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp.xopp rascunho.xopp'
 
 # Aliases relativos à USP
