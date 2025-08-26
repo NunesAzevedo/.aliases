@@ -7,7 +7,7 @@ export VISUAL=nvim
 EDITOR="nvim"
 
 # Atalhos do terminal
-alias u='sudo pacman -Syu'
+alias u='sudo pacman -Syu && yay -Syu'
 alias ue='sudo pacman -Syu && exit'
 alias s='sudo'
 alias e="exit"
