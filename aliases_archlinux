@@ -6,6 +6,9 @@ export VISUAL=nvim
 # Editor padrão de código
 EDITOR="nvim"
 
+# Java settings
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk/
+
 # Atalhos do terminal
 alias u='sudo pacman -Syu && yay -Syu'
 alias ue='sudo pacman -Syu && exit'
@@ -136,6 +139,5 @@ alias gposh='cd ~/.oh_my_posh_themes && git add . && git commit -m a && git push
 # eval "$(oh-my-posh init bash --config $craver)" # For bash
 # eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
 # eval "afetch | cowsay -n -f small"
-
 
 
