@@ -31,7 +31,7 @@ alias sdi='sudo $PKGMANAGER install'
 alias t='touch'
 alias co='code . && exit'
 alias environment_variables='$Editor ~/.environment_variables'
-
+alias o='okular'
 
 # Aliases for studies
 alias x='xournalpp'

@@ -32,6 +32,7 @@ alias co='code . && exit'
 alias environment_variables='$Editor ~/.environment_variables'
 alias k='(kitty . &) && disown'
 alias h='$EDITOR ~/.config/hypr/hyprland.conf'
+alias o='okular'
 
 # Aliases for studies
 alias x='xournalpp'
