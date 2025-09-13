@@ -74,7 +74,7 @@ alias gcnfig='git config'
 alias gClonaTodosOsRepositoriosRemotos='sh ~/.scripts/clonaTodosOsRepositorios.sh'
 
 # Atalhos Makefile
-export MAKEFLAGS="-j$(($(nproc) - 2))"
+export MAKEFLAGS="-j$(($(nproc) - 4))"
 alias m='make'
 alias ma='make all'
 alias mr='make run'
