@@ -37,7 +37,7 @@ alias o='okular'
 # Aliases for studies
 alias x='xournalpp'
 alias xtemplate='cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp.xopp template.xopp && cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp.xopp rascunho.xopp'
-alias cdStudies = 'cd ~/estudos/graduação/'
+alias cdStudies='cd ~/estudos/graduação/'
 
 # Aliases relativos à USP
 alias vpn_usp='sh ~/src/scripts/vpn_usp.sh'
