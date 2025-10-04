@@ -40,6 +40,9 @@ alias xtemplate='cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp
 # Aliases relativos à USP
 alias vpn_usp='sh ~/src/scripts/vpn_usp.sh'
 
+# WR Atalhos
+alias SSLGameController="cd ~/src/warthog/3rdparty/ssl-game-controller/ && make run"
+
 # Atalhos para abrir aplicativos (gambiarra temorária)
 alias clion='sh ~/apps/clion/clion-2024.3.1/bin/clion.sh'
 
@@ -123,8 +126,6 @@ alias clang-chromium='clang-format --style=Chromium --dump-config > .clang-forma
 # Atalhos para Python
 alias p='python3'
 
-# Warthog
-alias sslgameController='cd ~/Warthog/3rdparty/ssl-game-controller && make run'
 
 # ------------------
 # Atalhos Oh my posh
