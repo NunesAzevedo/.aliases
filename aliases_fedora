@@ -40,8 +40,19 @@ alias xtemplate='cp ~/estudos/template_xournalpp.xopp . && mv template_xournalpp
 # Aliases relativos à USP
 alias vpn_usp='sh ~/src/scripts/vpn_usp.sh'
 
-# WR Atalhos
+##########################
+###### WR Atalhos ########
+##########################
+
 alias SSLGameController="cd ~/src/warthog/3rdparty/ssl-game-controller/ && make run"
+alias grSim='grSim -platform xcb' 
+alias WREye='cd ~/src/warthog/app-wreye/bin/ && ./WREye -platform xcb'
+#alias =' -platform xcb'
+#alias =' -platform xcb'
+
+
+
+
 
 # Atalhos para abrir aplicativos (gambiarra temorária)
 alias clion='sh ~/apps/clion/clion-2024.3.1/bin/clion.sh'
