@@ -47,6 +47,7 @@ alias vpn_usp='sh ~/src/scripts/vpn_usp.sh'
 alias SSLGameController="cd ~/src/warthog/3rdparty/ssl-game-controller/ && make run"
 alias grSim='grSim -platform xcb' 
 alias WREye='cd ~/src/warthog/app-wreye/bin/ && ./WREye -platform xcb'
+alias WRStation-new='cd ~/src/warthog/app-wrstation-new/bin/ && ./WRStation'
 #alias =' -platform xcb'
 #alias =' -platform xcb'
 
