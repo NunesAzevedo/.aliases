@@ -10,7 +10,8 @@ EDITOR="nvim"
 export JAVA_HOME=/usr/lib/jvm/java-21-openjdk/
 
 # Atalhos do terminal
-alias u='sudo pacman -Syu && yay -Syu && flatpak update -y'
+# alias u='sudo pacman -Syu && yay -Syu && flatpak update -y'
+alias u='topgrade'
 alias ue='u && exit'
 alias s='sudo'
 alias e="exit"
