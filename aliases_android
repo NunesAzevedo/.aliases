@@ -3,7 +3,7 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # Atalhos do terminal
-alias u='pkg update && pkg upgrade -y'
+alias u='topgrade -y'
 alias s='sudo'
 alias e='exit'
 alias r='reboot'
